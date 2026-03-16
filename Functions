@@ -1,0 +1,22 @@
+# Write your code below:
+
+def trip_planner(first_destination, second_destination, final_destination="Codecademy HQ"):
+  print("Here is what your trip will look like!")
+  print("First, we will stop in " + first_destination,"then " + second_destination, "and lastly " + final_destination)
+
+# Call the function    
+trip_planner("London", "India", "New Zealand")
+
+# Changed Positional Arguments
+trip_planner("France", "Germany", "Denmark")
+
+# Changed Positional Arguments
+trip_planner("Denmark", "France", "Germany")
+
+# Calling the function again but using Keyword Arguments
+
+trip_planner(first_destination = "Iceland", final_destination = "Germany", second_destination = "India")
+
+# Call the function again using only two positional arguments to see the default argument in action
+
+trip_planner("Brooklyn", "Queens")
