@@ -1,0 +1,32 @@
+# Sal's Shipping Project
+#LP
+
+weight = 41.5
+ground_cost = ""
+
+# Ground Shipping
+
+if weight <= 2:
+  ground_cost = weight * 1.5 + 20
+elif weight <= 6:
+  ground_cost = weight * 3.00 + 20  
+elif weight <= 10:
+  ground_cost = weight * 4.00 + 20
+else: ground_cost = weight * 4.75 + 20 
+print(ground_cost)
+
+premium_ground_cost = 125.00
+print(premium_ground_cost)
+
+# Drone Shipping
+
+drone_shipping_cost = ""
+weight = 41.5
+if weight <= 2:
+  drone_shipping_cost = weight * 4.50 + 0.00
+elif weight <= 6:
+  drone_shipping_cost = weight * 9.00 + 0.00
+elif weight <= 10:
+  drone_shipping_cost = weight * 12.00 + 0.00
+else: drone_shipping_cost = weight * 14.25 + 0.00
+print(drone_shipping_cost)   
