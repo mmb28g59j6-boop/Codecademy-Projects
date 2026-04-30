@@ -1,2 +1,2 @@
-# Codecademy-Projects
-Projects ive done at Codecademy
+# ** Codecademy-Projects **
+## * Python Based Code, basic code snippets *
